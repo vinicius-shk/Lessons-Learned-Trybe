@@ -1,89 +1,89 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 1em;
-    line-height: 22px;
+  background-color: rgb(253, 251, 251);
+  font-size: 1em;
+  line-height: 22px;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    background-color: #32936f;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(49, 145, 119);
+  width: 100%;
 }
 
 img {
-    width: 10%;
-    border-radius: 100%;
-    float: right;
-    margin-right: 5%;
-    padding-left: 2%;
+  width: 10%;
+  border-radius: 100%;
+  float: right;
+  margin-right: 5%;
+  padding-left: 2%;
 }
 
 aside {
-    margin-top: 3%;
-    width: 15%;
-    float: right;
+  margin-top: 3%;
+  width: 15%;
+  float: right;
 }
 
 main {
-    margin-top: 15%;
+  margin-top: 15%;
 }
 
 .listas-licoes {
-    display: inline-block;
-    border-radius: 20px;
-    margin-left: 10%;
-}
-ol li:hover {
-    color: #db504a;
-}
-
-ul li:hover {
-    color: #db504a;
-}
-
-
-table {
-    border-collapse: collapse;
-    width: 35%;
-    margin-left: 32%;
-    margin-bottom: 3%;
-}
-
-h3 {
-    text-align: center;
-    padding: 5px;
-}
-
-td, th {
-    border: 2px solid black;
-    text-align: left;
-}
-
-tr:nth-child(even) {
-    background-color: gray;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 10%;
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 10px 5px;
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+ol li:hover {
+  color: rgb(219, 80, 74);
+}
+
+ul li:hover {
+  color: rgb(219, 80, 74);
+}
+
+table {
+  border-collapse: collapse;
+  width: 35%;
+  margin-left: 32%;
+  margin-bottom: 3%;
+}
+
+h3 {
+  text-align: center;
+  padding: 5px;
+}
+
+td , th {
+  border: 2px solid black;
+  text-align: left;
+}
+
+tr:nth-child( even ) {
+  background-color: gray;
 }
 
 nav ul li:hover {
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 p {
-    padding: 2px;
+  padding: 2px;
 }
 
 .lado-esquerdo {
-    width: 40%;
-    float: right;
+  width: 40%;
+  float: right;
 }
 
 .lado-direito {
-    width: 20%;
-    margin-left: 3%;
+  width: 20%;
+  margin-left: 3%;
 }
