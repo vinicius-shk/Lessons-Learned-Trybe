@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-size: 1em;
+    line-height: 22px;
 }
 
 header {
@@ -33,6 +34,14 @@ main {
     border-radius: 20px;
     margin-left: 10%;
 }
+ol li:hover {
+    color: #db504a;
+}
+
+ul li:hover {
+    color: #db504a;
+}
+
 
 table {
     border-collapse: collapse;
