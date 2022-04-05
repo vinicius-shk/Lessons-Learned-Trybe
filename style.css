@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(207, 255, 179);
   font-size: 1em;
   line-height: 22px;
 }
@@ -9,6 +9,7 @@ header {
   top: 0;
   background-color: rgb(49, 145, 119);
   width: 100%;
+  left: 0;
 }
 
 img {
@@ -20,13 +21,17 @@ img {
 }
 
 aside {
-  margin-top: 3%;
   width: 15%;
   float: right;
+  margin-top: 3%;
 }
 
 main {
-  margin-top: 15%;
+  margin-top: 10%;
+}
+
+article {
+  padding-top: 2%;
 }
 
 .listas-licoes {
@@ -58,6 +63,7 @@ table {
 h3 {
   text-align: center;
   padding: 5px;
+  margin-top: 3%;
 }
 
 td , th {
@@ -66,7 +72,8 @@ td , th {
 }
 
 tr:nth-child( even ) {
-  background-color: gray;
+  background-color: rgb(45, 49, 66);
+  color: rgb(217, 219, 241);
 }
 
 nav ul li:hover {
