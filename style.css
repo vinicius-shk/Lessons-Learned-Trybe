@@ -15,7 +15,7 @@ img {
     width: 10%;
     border-radius: 100%;
     float: right;
-    margin-right: 20%;
+    margin-right: 5%;
     padding-left: 2%;
 }
 
@@ -76,4 +76,14 @@ nav ul li:hover {
 
 p {
     padding: 2px;
+}
+
+.lado-esquerdo {
+    width: 40%;
+    float: right;
+}
+
+.lado-direito {
+    width: 20%;
+    margin-left: 3%;
 }
